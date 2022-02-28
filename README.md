@@ -1,2 +1,2 @@
 # leetcode-questions
-800 leetcode questions
+Daily leetcode questions
