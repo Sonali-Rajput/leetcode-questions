@@ -31,13 +31,13 @@ public class max_subarray {
                 {
                     s=0; //the no need to add it as it will decrease the value for the sum.
                 }
-                else if(s>max)
-                    max=s;
+                else if(s>max) //if sum is greater than max
+                    max=s; //initialize max as sum
                 //System.out.println(max);
-                i++;
+                i++; //increment i 
             }
             //System.out.println(max);
-            return max;
+            return max; //returning max 
         }
     }
     
